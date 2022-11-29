@@ -90,8 +90,10 @@ if (string1.length > string2.length) {
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-let isInteger = 2;
-if (isInteger === parseInt(isInteger)) {
+
+
+let isInteger = "2";
+if (typeof isInteger === "number") {
     console.log("Yes the variable is integer")
 } else {
     console.log("No, the value is not an integer")
