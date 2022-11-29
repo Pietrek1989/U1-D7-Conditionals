@@ -71,8 +71,37 @@ console.log(name1 === name2.toLowerCase());
 */
 
 
- let x = 2;
-console.log(x);
+//Trials
+
+let x = 2;
+if (x === 1) {
+    console.log("value is one");
+}
+else if (x === 2) {
+    console.log("value is two");
+}
+else if (x === 3) {
+    console.log("value is three");
+}
+else if (x === 4) {
+    console.log("value is four");
+}
+else if (x === 5) {
+    console.log("value is five");
+}
+else if (x === 6) {
+    console.log("value is six");
+}
+else if (x === 7) {
+    console.log("value is seven");
+}
+else if (x === 8) {
+    console.log("value is eight");
+}
+else {
+    console.log("value is nine");
+}
+
 
 
 /* EXERCISE 9
